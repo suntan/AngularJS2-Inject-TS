@@ -25,7 +25,7 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 
 {
 
-  "name": "AngularJS2-TypeScript-Inject-Empty-Sample", <---- 專案名稱
+  "name": "EmptyAngularJS2Inject", <---- 專案名稱
   
   "version": "1.0.0",
   
