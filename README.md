@@ -16,7 +16,7 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 [root@/usr/src]# cd MyInjectTest
 
 4. 修改 package.json  , 將專案名稱換成您喜歡的名稱  ; <其實不改也沒關係>:
-[root@/usr/src/MyInjectTest]# vi package.json
+[root@/usr/src/MyInjectTest]# vi package.json<br>
 
 {
   "name": "AngularJS2-TypeScript-Inject-Empty-Sample", <---- 專案名稱
