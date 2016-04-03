@@ -11,7 +11,7 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 
 2. 利用 linux 指令變更資料夾名稱 :
 
-[root@/usr/src]# mv EmptyAngularJS2Inject   MyInjectTest <---您喜歡的資料夾名稱
+[root@/usr/src]# mv AngularJS2-Inject   MyInjectTest <---您喜歡的資料夾名稱
 
 3. 切換至該資料夾內 :
  
@@ -25,7 +25,7 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 
 {
 
-  "name": "EmptyAngularJS2Inject", <---- 專案名稱
+  "name": "AngularJS2-Inject", <---- 專案名稱
   
   "version": "1.0.0",
   
