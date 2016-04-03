@@ -10,16 +10,17 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 1. 請使用 git clone https://github.com/suntan/EmptyAngularJS2Inject.git 指令進行下載到測試目錄之下 , 以下假設是為 /usr/src 資料夾 .
 
 2. 利用 linux 指令變更資料夾名稱 :
-3. 
+
 [root@/usr/src]# mv EmptyAngularJS2Inject   MyInjectTest <---您喜歡的資料夾名稱
 
 3. 切換至該資料夾內 :
-4. 
+ 
 [root@/usr/src]# cd MyInjectTest
 
 4. 修改 package.json  , 將專案名稱換成您喜歡的名稱  ; <其實不改也沒關係>:
-5. 
-[root@/usr/src/MyInjectTest]# vi package.json</br>
+
+
+[root@/usr/src/MyInjectTest]# vi package.json
 
 
 {
@@ -143,6 +144,7 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 
 [root@/usr/src/MyInjectTest]# npm start
 
+
 8. terminal 的畫面跑很快 ,如果成功會出現以下訊息 :
 
 [1] [BS] Access URLs:
@@ -170,6 +172,6 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 [1] [BS] Watching files...
 
 
-如果你是在本機測試,可以開啟 http://127.0.0.1:3000 或 http://localhost:3000 看看成果；如果因執行 npm start 指令出現 typing error 的訊息，可以嘗試執行 npm clear cache 、npm run postinstall 之後在進行 npm start
+Notic :如果你是在本機測試,可以開啟 http://127.0.0.1:3000 或 http://localhost:3000 看看成果；如果因執行 npm start 指令出現 typing error 的訊息，可以嘗試執行 npm clear cache 、npm run postinstall 之後在進行 npm start
 
-
+聯絡信箱 : suntan.huang@gmail.com
