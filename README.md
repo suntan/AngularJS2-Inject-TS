@@ -16,34 +16,61 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 [root@/usr/src]# cd MyInjectTest
 
 4. 修改 package.json  , 將專案名稱換成您喜歡的名稱  ; <其實不改也沒關係>:
-[root@/usr/src/MyInjectTest]# vi package.json<br>
+[root@/usr/src/MyInjectTest]# vi package.json</br>
+
 
 {
+
   "name": "AngularJS2-TypeScript-Inject-Empty-Sample", <---- 專案名稱
+  
   "version": "1.0.0",
+  
   "scripts": {
+  
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",    
+    
     "tsc": "tsc",
+    
     "tsc:w": "tsc -w",
+    
     "lite": "lite-server",
+    
     "typings": "typings",
+    
     "postinstall": "typings install" 
+    
   },
+  
   "license": "ISC",
+  
   "dependencies": {
+  
     "angular2": "2.0.0-beta.13",
+    
     "systemjs": "0.19.25",
+    
     "es6-shim": "^0.35.0",
+    
     "reflect-metadata": "0.1.2",
+    
     "rxjs": "5.0.0-beta.2",
+    
     "zone.js": "0.6.6"
+    
   },
+  
   "devDependencies": {
+  
     "concurrently": "^2.0.0",
+    
     "lite-server": "^2.1.0",
+    
     "typescript": "^1.8.9",
+    
     "typings":"^0.7.11"
+    
   }
+  
 }
 
 修改如下:
