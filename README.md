@@ -7,7 +7,7 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 
 
 使用步驟 :
-1. 請使用 git clone https://github.com/suntan/EmptyAngularJS2Inject.git 指令進行下載到測試目錄之下 , 以下假設是為 /usr/src 資料夾 .
+1. 請使用 git clone https://github.com/suntan/EmptyAngularJS2-Inject.git 指令進行下載到測試目錄之下 , 以下假設是為 /usr/src 資料夾 .
 
 2. 利用 linux 指令變更資料夾名稱 :
 
