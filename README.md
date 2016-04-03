@@ -1,0 +1,1 @@
+# EmptyAngularJS2Inject
