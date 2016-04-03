@@ -1,5 +1,5 @@
 {
-  "name": "AngularJS2-TypeScript-Inject-Empty-Sample",
+  "name": "EmptyAngularJS2Inject",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",    
