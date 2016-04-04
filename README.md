@@ -174,4 +174,6 @@ B. 使用 AngularJS2 或者 AngularJS2-seed 常用的相依性套件:es6-shim、
 
 Notic :如果你是在本機測試,可以開啟 http://127.0.0.1:3000 或 http://localhost:3000 看看成果；如果因執行 npm start 指令出現 typing error 的訊息，可以嘗試執行 npm clear cache 、npm run postinstall 之後在進行 npm start
 
-聯絡信箱 : suntan.huang@gmail.com
+最近需要對內部的同仁做一些教育訓練；但Node相關的中文教學資源太少，照著AngularJS2官網的5分鐘學習一個開發的框架對資深的工程來說可能都習慣了，找對方法是這條路上必經之路. 希望多少能提供點幫助. . . 
+
+聯絡信箱 : suntan.huang@gmail.com  
